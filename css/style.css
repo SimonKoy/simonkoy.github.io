@@ -1,0 +1,66 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #4c5eff, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+#testimonial {
+  background-color: #fc02fc;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.8s ease-in-out left;
+}
+
+/* to get full window - START*/
+.div class="container-fluid"
+/* to get full window - END*/
+
+
+body {
+  display:flex;
+  justify-content: start;
+  width: 100%;
+}
+
+.nav {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#footer {
+  background: linear-gradient(300deg, #00bfff, #4c5eff, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
